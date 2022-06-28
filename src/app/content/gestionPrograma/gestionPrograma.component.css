@@ -1,0 +1,50 @@
+.card{
+    background-color: white;
+    margin-left: 0;
+    left: 0;
+    width: 11vh;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0.4px 0px 0px rgb(129, 129, 129); 
+    border-radius: 0px;
+    border-top: none;
+    border-bottom: none;
+  
+
+}
+.container{
+    margin-left: 0;
+    left: -0;
+}
+.menulateral{
+    margin-top: 5vh;
+    top:-1vh;
+    bottom: 0;
+  margin: auto;
+    padding: 0;
+    width: 100%;
+   
+   
+}
+
+.icon{
+    margin:auto;
+  display: flex;
+  width: 11vh;
+  height: 9vh;
+  top: 0;
+
+  
+ border-radius: 10%;
+ 
+}
+.size{
+    font-size: 29px;
+    margin: auto;
+    color: rgb(84, 86, 88);
+    border-radius: 50%;
+    width: auto;
+    padding: auto;
+  
+}
+

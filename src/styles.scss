@@ -1,0 +1,102 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a{
+    text-decoration: none;
+  }
+  
+  #mostrarP{
+    display: none;
+   
+    &:checked ~ #cardP {
+      #icon-m{
+  display: block !important;
+      }
+      display: block !important;
+      transform: translateY(-67vh) translateX(-0vh) scale(1);
+      
+     
+      
+    }
+   
+  }
+  
+  #mostrarP{
+    display: none;
+   
+    &:checked ~ #icon-m{
+      
+        background-color: black !important;
+      
+    }
+  }
+  
+  #menu-show{
+    display: none;
+    border: none;
+    &:checked ~ #card-log {
+      display: block !important;
+      z-index: 5;
+     
+     
+    }
+  }
+  
+  #mostrarR{
+    display: none;
+   
+    &:checked ~ #car {
+      display: block !important;
+      transform: translateY(-67vh) translateX(-0vh) scale(1);
+     
+      
+    }
+  }
+  
+  .men-user{
+   
+   
+  }
+  .panel{
+    margin-top:5vh ;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    justify-items: center ;
+    }
+    .contain{
+      position:absolute;
+      z-index: 0;
+      top: 21vh;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .icon:hover{
+     
+    
+      border: solid rgb(0, 140, 255);
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+  
+      
+    
+    .size{
+      color: rgb(0, 140, 255);
+      border-radius: 50%;
+      background-color: rgb(210, 243, 255);
+      font-size: 25px;
+    } 
+    
+   
+  }
+  
